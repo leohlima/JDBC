@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/2_JDBC(Insert data)/2_JDBC(Insert data).iml" filepath="$PROJECT_DIR$/2_JDBC(Insert data)/2_JDBC(Insert data).iml" />
       <module fileurl="file://$PROJECT_DIR$/3_Update data/3_Update data.iml" filepath="$PROJECT_DIR$/3_Update data/3_Update data.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_Delete data/4_Delete data.iml" filepath="$PROJECT_DIR$/4_Delete data/4_Delete data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_Transation/5_Transation.iml" filepath="$PROJECT_DIR$/5_Transation/5_Transation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JDBC.iml" filepath="$PROJECT_DIR$/.idea/JDBC.iml" />
     </modules>
   </component>
