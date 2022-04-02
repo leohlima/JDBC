@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1_JDBC(Recuperate data)/21_JDBC.iml" filepath="$PROJECT_DIR$/1_JDBC(Recuperate data)/21_JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_JDBC(Insert data)/2_JDBC(Insert data).iml" filepath="$PROJECT_DIR$/2_JDBC(Insert data)/2_JDBC(Insert data).iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Update data/3_Update data.iml" filepath="$PROJECT_DIR$/3_Update data/3_Update data.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JDBC.iml" filepath="$PROJECT_DIR$/.idea/JDBC.iml" />
     </modules>
   </component>

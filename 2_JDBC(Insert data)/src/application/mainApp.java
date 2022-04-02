@@ -19,7 +19,8 @@ public class mainApp {
                     "INSERT INTO seller "
                             + "(Name, Email, BirthDate, BaseSalary, DepartmentId) "
                             + "VALUES "
-                            + "(?, ?, ?, ?, ?)");
+                            + "(?, ?, ?, ?, ?)",
+                    Statement.RETURN_GENERATED_KEYS); //overcharged to generate a id of my created value
 
             st.setString(1, "Carl Purple");
             st.setString(2, "carl@gmail.com");
@@ -27,7 +28,20 @@ public class mainApp {
             st.setDouble(4, 3000.0);
             st.setInt(5, 4);
 
+            st = conn.prepareStatement("insert into department (Name) values ('D1'), ('D2')",
+                    Statement.RETURN_GENERATED_KEYS);
+
             int rowsAffected = st.executeUpdate();
+
+            if (rowsAffected > 0){
+                ResultSet rs = st.getGeneratedKeys();
+                while (rs.next()){
+                    int id = rs.getInt(1);
+                    System.out.println("Done! Id = " + id);
+                }
+            } else {
+                System.out.println("No rows affected!");
+            }
 
             System.out.println("Done! Rows affected: " + rowsAffected);
         }
